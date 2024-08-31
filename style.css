@@ -277,8 +277,9 @@ padding-top: 20px;
 .glightbox img{
     transition: transform ease 0.5s;
 }
-.glightbox img:hover{
-    transform: scale(1.2);
+.glightbox-container{
+    display: none;
+    /* z-index: -100; */
 }
 /* team partie */
 #team .infos-personel small {
